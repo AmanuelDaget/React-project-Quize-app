@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.795);
+}
+.container {
+   background-color: white;
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   margin-top: 40px;
+   border-radius: 10px;
+   box-shadow: 1px 1px 9px 8px rgb(206, 225, 236);
+   text-align: left;
+   padding: 30px;
+}
+.container h1 {
+  color: rgb(10, 18, 88);
+  margin: 15px 0px;
+}
+.container hr{
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  width: 100%;
+  margin: 15px 0px;
+}
+.container h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 15px 0px;
+  
+}
+.container ul li{
+  list-style-type: none;
+  border: 1px solid rgba(0, 0, 0, 0.452);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+
+}
+.container button {
+   margin: 25px auto;
+   padding: 10px;
+   font-size: 18px;
+   width: 90px;
+   background-color: blue;
+   color: white; 
+   border: none;
+   border-radius: 5px;
+}
+.container button:active {
+  box-shadow: 1px 1px 9px  black;
+}
+.container p {
+  margin: auto;
+}
+
+.correct {
+  background-color: rgba(107, 245, 107, 0.329);
+  color: green;
+}
+.wrong {
+  background-color: rgba(235, 23, 23, 0.267);
+  color: rgb(90, 6, 6);
+}
